@@ -1,0 +1,35 @@
+body {
+  background-color: #6096B4;
+}
+
+h1 {
+  color: #EEE9DA;
+  font-weight: bold;
+}
+
+.logo {
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid #EEE9DA;
+}
+
+.logo img {
+  width: 100%;
+}
+
+main .setButton {
+  color: #EEE9DA;
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #93BFCF;
+  transition: all 1s;
+}
+
+main .setButton:hover {
+  background-color: rgba(19, 19, 195, 0.4);
+  border: 1px solid whitesmoke;
+}

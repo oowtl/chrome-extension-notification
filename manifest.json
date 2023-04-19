@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "My Pomodoro",
+  "description": "Hello! This is my first chrome extension",
+  "version": "1.0.0",
+
+  "action": {
+    "default_icon": {
+      "16": "images/icon-cyclist-16.png",
+      "24": "images/icon-cyclist-24.png",
+      "32": "images/icon-cyclist-32.png"
+    },
+
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": ["notifications", "alarms", "storage"]
+}
