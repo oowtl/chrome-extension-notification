@@ -44,3 +44,14 @@ async function handleClearNotification() {
 
   const response = await chrome.runtime.sendMessage(messageInfo);
 }
+
+// 스크립트 주입 부분
+document.querySelector("#injecting").addEventListener("click", handleInject);
+
+async function handleInject() {
+  const messageInfo = {
+    name: "inject",
+  };
+
+  const response = await chrome.runtime.sendMessage(messageInfo);
+}
